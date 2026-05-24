@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 10.0
+  pre_build:
+    commands:
+      - dotnet --info
+      - dotnet restore AwsCodePipelineDemo.csproj
+  build:
+    commands:
+      - dotnet build AwsCodePipelineDemo.csproj --configuration Release --no-restore
+  post_build:
+    commands:
+      - dotnet publish AwsCodePipelineDemo.csproj --configuration Release --no-build --output ./app
+
+artifacts:
+  files:
+    - Procfile
+    - app/**/*

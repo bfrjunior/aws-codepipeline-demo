@@ -1,0 +1,6 @@
+@AwsCodePipelineDemo_HostAddress = http://localhost:0
+
+GET {{AwsCodePipelineDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
