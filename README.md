@@ -44,3 +44,6 @@ No Elastic Beanstalk, selecione a plataforma Linux de .NET 10. Os docs atuais da
 
 - `buildspec.yml`: comandos executados pelo CodeBuild.
 - `Procfile`: comando usado pelo Elastic Beanstalk para iniciar a aplicação publicada.
+
+<img width="1072" height="312" alt="image" src="https://github.com/user-attachments/assets/2ec74c79-f38c-48ed-a3e2-4a0e8ff63a4a" />
+
