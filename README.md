@@ -1,16 +1,5 @@
 # AWS CodePipeline Demo - .NET 10 + Elastic Beanstalk
 
-Projeto baseado na aula transcrita em:
-
-`/home/fernando/Documents/projetos aws/transcricoes/Aws-course/Deploying ASP.NET Core Web API to AWS Elastic Beanstalk using AWS CodePipeline - Easy CICD with AWS.txt`
-
-Adaptações feitas:
-
-- .NET 6 -> .NET 10
-- Swagger -> Scalar
-- API reduzida para Hello World, porque o foco da aula é infra/devops
-- `buildspec.yml` e `Procfile` preparados para AWS CodeBuild + Elastic Beanstalk
-
 ## Rotas
 
 - `/` retorna uma mensagem básica e aponta para a documentação.
